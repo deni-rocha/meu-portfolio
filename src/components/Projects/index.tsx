@@ -6,7 +6,7 @@ const Projects = (): JSX.Element => {
   const [projects] = useState(dataProjects)
 
   return (
-    <div className="flex flex-col items-center mt-36 md:border md:mt-20 md:border-red-500 lg:mt-12 lg:items-start">
+    <div className="flex flex-col items-center mt-36 md:mt-20 lg:mt-12 lg:items-start">
       {projects.map((item) => {
         return (
           <CardProject

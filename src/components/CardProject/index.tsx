@@ -40,7 +40,7 @@ export default function CardProject({
       >
         <a
           target="_blank"
-          className="text-white text-4xl font-light flex pl-2 items-end gap-3 transition-all"
+          className="text-white text-2xl font-light hover:translate-x-6 hover:text-primary flex pl-2 items-end gap-1 transition-all lg:text-3xl"
           href={link}
           rel="noreferrer"
         >

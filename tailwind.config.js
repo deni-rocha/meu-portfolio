@@ -14,7 +14,6 @@ module.exports = {
         backgroundLight: "#1B2138",
         primary: "#0EE7B7",
         secondary: "#7AC7E3",
-        gradient: "linear-gradient(225deg, #313860 0%, #11172B 100%);",
         text: "#848DA0",
         textHighlight: "#444B5B",
         textLight: "#C4C4C4",
@@ -29,7 +28,7 @@ module.exports = {
       animation: {
         rightIn: "rightIn .5s",
         leftIn: "leftIn .6s",
-        pulse: "pulse 2s cubic-bezier(0.4, 0, 0.6, 1)"
+        pulse: "pulse .7s cubic-bezier(0.4, 0, 0.6, 1)"
       },
       keyframes: {
         rightIn: {
