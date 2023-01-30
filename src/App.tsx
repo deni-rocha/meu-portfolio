@@ -1,4 +1,3 @@
-import React from "react"
 import "./input.css"
 import Home from "./pages/Home"
 
