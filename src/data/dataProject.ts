@@ -1,5 +1,4 @@
 import dealta from "../assets/dealta.png"
-import dogbreed from "../assets/dogbreed.png"
 import dealtaApi from "../assets/deAlta-api.png"
 
 const dataProjects = [
@@ -11,15 +10,6 @@ const dataProjects = [
     link: "https://dealta.vercel.app",
     thumbnail: dealta
   },
-  {
-    id: 2,
-    title: "Doog Breed",
-    type: "website",
-    description: "projeto com página de registrar e listagem",
-    link: "https://dogbreed-rose.vercel.app/",
-    thumbnail: dogbreed
-  },
-
   {
     id: 3,
     title: "API REST",
