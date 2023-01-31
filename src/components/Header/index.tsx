@@ -19,7 +19,7 @@ const Header = (): JSX.Element => {
           {/* foto de perfil, usando background css */}
           <div className="perfilImg absolute animate-rightIn" />
         </div>
-        <div className="z-10 animate-pulse b-info-background">
+        <div className="z-10 animate-pulse text-sm">
           <section className="p-8 rounded-2xl bg-gradient-to-r from-[#11172B] to-[#313860] hover:brightness-125">
             <div className="flex gap-2">
               <span className="text-[rgb(195,140,221)]">
