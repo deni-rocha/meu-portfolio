@@ -24,7 +24,6 @@
     },
     "react": {
       "version": "detect"
-    },
-    "ignoreDuringBuilds": true
+    }
   }
 }
