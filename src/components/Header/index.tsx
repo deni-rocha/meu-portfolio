@@ -19,7 +19,7 @@ const Header = (): JSX.Element => {
           {/* foto de perfil, usando background css */}
           <div className="perfilImg absolute animate-rightIn" />
         </div>
-        <div className="z-10 animate-pulse text-sm">
+        <div className="z-10 animate-pulse">
           <section className="p-8 rounded-2xl bg-gradient-to-r from-[#11172B] to-[#313860] hover:brightness-125">
             <div className="flex gap-2">
               <span className="text-[rgb(195,140,221)]">
@@ -27,11 +27,11 @@ const Header = (): JSX.Element => {
               </span>
               <div className="text-[#595ba7]"> {"\u007B"}</div>
             </div>
-            <div>
+            <div className="text-sm">
               "nome":{" "}
               <span className="text-white">Denilson Rocha,</span>
             </div>
-            <div>
+            <div className="text-sm">
               "função": <span className="text-white">Full Stack</span>
             </div>
             <div className="text-[#595ba7]">{"\u007D"}</div>
