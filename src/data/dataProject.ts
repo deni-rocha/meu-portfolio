@@ -11,7 +11,7 @@ const dataProjects = [
     thumbnail: dealta
   },
   {
-    id: 3,
+    id: 2,
     title: "API REST",
     type: "backend",
     description: "api rest com Node.js e Express.js",
