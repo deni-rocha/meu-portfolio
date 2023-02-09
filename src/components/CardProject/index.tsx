@@ -1,4 +1,5 @@
 import React from "react"
+import { IoCodeSlash } from "react-icons/io5"
 import { AiOutlineRightCircle } from "react-icons/ai"
 
 interface ProjetoProps {
@@ -6,14 +7,16 @@ interface ProjetoProps {
   type: string
   slug: number
   imgUrl: string
-  link: string
+  linkWeb: string
+  linkCode: string
 }
 
 export default function CardProject({
   title,
   type,
   imgUrl,
-  link
+  linkWeb,
+  linkCode
 }: ProjetoProps): JSX.Element {
   return (
     <div className="mt-16 flex flex-col lg:flex-row lg:even:self-end">
@@ -34,19 +37,31 @@ export default function CardProject({
           </h2>
         </div>
       </section>
-      <button
-        className="h-16 bg-none border-none self-end"
-        type="button"
-      >
-        <a
-          target="_blank"
-          className="text-white text-2xl font-light hover:translate-x-6 hover:text-primary flex pl-2 items-end gap-1 transition-all lg:text-3xl"
-          href={link}
-          rel="noreferrer"
+      <div className="self-end flex lg:flex-col">
+        <button
+          className="h-16 bg-none border-none lg:h-7"
+          type="button"
         >
-          visitar <AiOutlineRightCircle />
-        </a>
-      </button>
+          <a
+            target="_blank"
+            className="text-white text-2xl font-light lg:hover:translate-x-6 hover:text-primary flex pl-2 items-center lg:items-end  gap-1 transition-all lg:text-3xl"
+            href={linkWeb}
+            rel="noreferrer"
+          >
+            visitar <AiOutlineRightCircle />
+          </a>
+        </button>
+        <button className="h-16 bg-none border-none" type="button">
+          <a
+            target="_blank"
+            className="text-white text-2xl font-light lg:hover:translate-x-6 hover:text-primary flex pl-2 items-center lg:items-end gap-1 transition-all lg:text-3xl"
+            href={linkCode}
+            rel="noreferrer"
+          >
+            código fonte <IoCodeSlash />
+          </a>
+        </button>
+      </div>
     </div>
   )
 }
