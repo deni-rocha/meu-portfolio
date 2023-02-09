@@ -7,7 +7,8 @@ const dataProjects = [
     title: "De alta",
     type: "website",
     description: "veja as músicas mais ouvidas no mundo e no brasil",
-    link: "https://dealta.vercel.app",
+    linkWeb: "https://dealta.vercel.app",
+    linkCode: "https://github.com/deni-rocha/deAlta.git",
     thumbnail: dealta
   },
   {
@@ -15,7 +16,8 @@ const dataProjects = [
     title: "API REST",
     type: "backend",
     description: "api rest com Node.js e Express.js",
-    link: "https://dealta2-api.vercel.app/api",
+    linkWeb: "https://dealta2-api.vercel.app/api",
+    linkCode: "https://github.com/deni-rocha/dealta2-api.git",
     thumbnail: dealtaApi
   }
 ]
