@@ -16,6 +16,12 @@ const dataProjectDescription = [
     description: `API que eu desenvolvi utilizando Node.js e Express, que por
     sua vez cria endpoints e faz requisisões a API do Deezer,
     filtrando e repassando os dados da Deezer.`
+  },
+  {
+    id: 3,
+    year: "jul 2021 – set 2021",
+    title: "Pokebook",
+    description: `Minha primeira aplicação feita com Next.js. Lembro da dificuldade inicial que tive ao programar esse site por se tratar de novos conceitos usando CSR/SSG/SSR.`
   }
 ]
 
