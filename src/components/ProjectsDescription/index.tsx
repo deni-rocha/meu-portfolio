@@ -3,7 +3,7 @@ import CardDescription from "../CardDescription"
 
 const ProjectsDescription = (): JSX.Element => {
   return (
-    <>
+    <ul className="flex flex-col gap-12 lg:w-full">
       {dataProjectDescription.map((item) => {
         return (
           <CardDescription
@@ -14,7 +14,7 @@ const ProjectsDescription = (): JSX.Element => {
           />
         )
       })}
-    </>
+    </ul>
   )
 }
 

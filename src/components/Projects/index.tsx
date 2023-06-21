@@ -6,7 +6,7 @@ const Projects = (): JSX.Element => {
   const [projects] = useState(dataProjects)
 
   return (
-    <>
+    <ul className="flex flex-col gap-12 lg:w-full">
       {projects.map((item) => {
         return (
           <CardProject
@@ -20,7 +20,7 @@ const Projects = (): JSX.Element => {
           />
         )
       })}
-    </>
+    </ul>
   )
 }
 

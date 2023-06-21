@@ -9,7 +9,7 @@ const CardDescription = ({
   description
 }: ICardDescription): JSX.Element => {
   return (
-    <div className="mt-16 w-[520px] h-[320px] bg-gradient-to-r from-[#11172B] to-[#313860] hover:brightness-125 rounded-2xl p-4 lg:odd:self-end">
+    <li className="mt-16 w-[320px] flex flex-col justify-center  h-fit md:w-[520px] md:h-[320px] bg-gradient-to-r from-[#11172B] to-[#313860] hover:brightness-125 rounded-2xl p-4 lg:odd:self-end">
       <section className="flex gap-4 items-baseline">
         <h1 className="text-lg font-jetBrains pt-2 font-bold">
           {title}
@@ -17,7 +17,7 @@ const CardDescription = ({
         <span className="text-sm font-jetBrains">{year}</span>
       </section>
       <p className="py-2">{description}</p>
-    </div>
+    </li>
   )
 }
 

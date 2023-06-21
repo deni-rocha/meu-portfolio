@@ -14,7 +14,7 @@ function Footer(): JSX.Element {
   }
 
   return (
-    <footer className="h-20 items-center justify-end flex mt-32 border-t border-solid border-backgroundLight">
+    <footer className="h-20 items-center justify-end flex mt-28 md:mt-32 border-t border-solid border-backgroundLight">
       <div className="w-full flex justify-around">
         <button
           type="button"

@@ -2,7 +2,8 @@
 import React from "react"
 const Header = (): JSX.Element => {
   return (
-    <div className="my-0 mx-auto h-96 flex justify-around py-16 px-0 flex-wrap gap-8 md:gap-1">
+    <div className="my-0 mx-auto h-96 flex justify-around py-16 px-0 flex-wrap md:flex-nowrap lg:flex-nowrap gap-8">
+      {/* container de boas vindas */}
       <section
         className="relative h-[110px] flex flex-col items-center w-full text-primary hover:brightness-125 font-bold transition-all 
       md:block md:h-[300px] md:w-[250px] lg:w-[420px]"
@@ -14,7 +15,9 @@ const Header = (): JSX.Element => {
           Que tal ver um pouco do meu trabalho...{" "}
         </span>
       </section>
-      <section className="flex flex-col gap-8 justify-end items-center font-jetBrains lg:self-end md:w-[320px]">
+
+      {/* container de infos */}
+      <section className="flex flex-col gap-8 justify-end items-center font-jetBrains md:w-[320px] md:h-[400px]">
         <div className="relative z-0 w-[200px] h-[200px] transition-all ">
           {/* foto de perfil, usando background css */}
           <div className="perfilImg absolute animate-rightIn" />

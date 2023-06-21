@@ -19,9 +19,9 @@ export default function CardProject({
   linkCode
 }: ProjetoProps): JSX.Element {
   return (
-    <div className="mt-16 flex flex-col lg:flex-row lg:even:self-end">
+    <li className="flex flex-col lg:flex-row lg:even:self-end">
       <section
-        className="w-[520px] h-[320px] relative rounded-3xl flex "
+        className="w-[320px] h-[220px] md:w-[520px] md:h-[320px] relative rounded-3xl flex"
         style={{
           background: `url(${imgUrl}) no-repeat`,
           backgroundSize: "cover"
@@ -44,7 +44,7 @@ export default function CardProject({
         >
           <a
             target="_blank"
-            className="text-white text-2xl font-light lg:hover:translate-x-6 hover:text-primary flex pl-2 items-center lg:items-end  gap-1 transition-all lg:text-3xl"
+            className="text-white text-2xl font-light lg:hover:translate-x-6 hover:text-primary flex pl-2 items-center lg:items-end  gap-1 transition-all"
             href={linkWeb}
             rel="noreferrer"
           >
@@ -54,7 +54,7 @@ export default function CardProject({
         <button className="h-16 bg-none border-none" type="button">
           <a
             target="_blank"
-            className="text-white text-2xl font-light lg:hover:translate-x-6 hover:text-primary flex pl-2 items-center lg:items-end gap-1 transition-all lg:text-3xl"
+            className="text-white text-2xl font-light lg:hover:translate-x-6 hover:text-primary flex pl-2 items-center lg:items-end gap-1 transition-all"
             href={linkCode}
             rel="noreferrer"
           >
@@ -62,6 +62,6 @@ export default function CardProject({
           </a>
         </button>
       </div>
-    </div>
+    </li>
   )
 }
